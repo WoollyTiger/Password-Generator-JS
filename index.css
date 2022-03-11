@@ -1,0 +1,50 @@
+*, body, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contrast-text {
+    color:coral;
+}
+
+#container {
+    background-color: aquamarine;
+    width: 550px;
+    height: 550px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 52px;
+}
+
+#upper-section {
+    flex-basis: 75%;
+}
+
+#bottom-section {
+    flex-basis: 25%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+#bottom-section > input, #bottom-section > div {
+    padding: 10px;
+    height: 40px;
+    margin: 10px;
+    background-color: lightcoral;
+    flex-basis: 40%;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+}
